@@ -4,11 +4,16 @@
 package com.beihang.dubbo.service;
 
 import java.util.Date;
+
+import org.springframework.stereotype.Service;
+
+
 /**
  * 
  * @author Tony
  *
  */
+@Service("filmServer")  
 public class FilmServerImpl implements FilmServer {
 
 	/**
